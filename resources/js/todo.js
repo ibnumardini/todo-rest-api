@@ -1,6 +1,6 @@
 const todoResultContainer = document.querySelector("#todoParent");
 
-async function fetchDataProvince() {
+async function fetchDataTodo() {
     try {
         const url = "http://127.0.0.1:8000/api/todos";
 
@@ -28,4 +28,4 @@ async function fetchDataProvince() {
     }
 };
 
-fetchDataProvince();
+fetchDataTodo();
